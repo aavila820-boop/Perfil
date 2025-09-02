@@ -20,6 +20,9 @@ Route::get('/', function () {
 Route::get('/comercio', function () {
     return view('landingpage');
 });
-Route::get('/detalle', function () {
+Route::get('/producto', function () {
     return view('detalle');
+});
+Route::get('/carrito', function () {
+    return view('carro');
 });
